@@ -1,4 +1,5 @@
-on: [push]
+Windows_run
+on: [push, issues]
 
 jobs:
   my-job:
