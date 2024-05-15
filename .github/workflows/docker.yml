@@ -1,0 +1,12 @@
+name: docker_build
+on: 
+  push:
+    branches:
+      - dev
+jobs:
+ docker_info:
+   runs-on: docker:latest
+   steps:
+   - name: docker_version
+     run: docker --version
+ 
