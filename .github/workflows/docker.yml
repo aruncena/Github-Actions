@@ -9,4 +9,9 @@ jobs:
    steps:
    - name: docker_version
      run: docker --version
- 
+ my-job:
+    runs-on: amazonlinux:latest
+    name: A job to say hello
+    steps:
+      - name: Hello world action step
+        run: cat /etc/os-release
