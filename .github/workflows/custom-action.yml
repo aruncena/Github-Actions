@@ -1,4 +1,4 @@
-Windows_run
+name: Windows_run
 on: [push, issues]
 
 jobs:
